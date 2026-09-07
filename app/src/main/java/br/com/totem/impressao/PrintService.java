@@ -1,24 +1,3 @@
-Está certo. O arquivo PrintService.java está aberto.
-
-Agora clique no ícone do lápis ✏️, lá em cima à direita — na sua tela ele fica ao lado do ícone de download.
-
-Depois disso, não precisa mandar print. Só diga “abriu”.
-
-excluo td
-
-Sim. Depois de clicar no lápis e entrar no modo de edição, vamos substituir o arquivo inteiro.
-
-Clique no lápis ✏️.
-Clique dentro do código.
-Aperte Ctrl + A.
-Aperte Delete.
-
-Pare aí com o campo vazio. Eu vou te passar o código completo novo para colar. Não confirme/salve ainda.
-
-deletei
-
-Ótimo. Agora cole todo este código no espaço vazio. Não salve ainda:
-
 package br.com.totem.impressao;
 
 import android.app.*;
@@ -349,5 +328,3 @@ public class PrintService extends Service {
         return null;
     }
 }
-
-Depois de colar, não precisa mexer em nenhuma linha. Me diga só “colei”.
