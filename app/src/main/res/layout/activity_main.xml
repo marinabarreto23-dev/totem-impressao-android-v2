@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F3F4F6">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Totem Impressão" android:textStyle="bold" android:textSize="28sp" android:textColor="#111827"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Agente profissional de impressão Bluetooth" android:textSize="15sp" android:textColor="#6B7280" android:layout_marginTop="4dp" android:layout_marginBottom="20dp"/>
+
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#EEF2FF" android:padding="14dp" android:text="Aguardando ativação" android:textStyle="bold" android:textColor="#111827"/>
+
+    <EditText android:id="@+id/code" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Código de ativação de 6 dígitos" android:inputType="number" android:maxLength="6" android:textSize="20sp" android:layout_marginTop="18dp"/>
+    <Button android:id="@+id/activate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ATIVAR ESTE CELULAR" android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Impressora Bluetooth" android:textStyle="bold" android:textSize="16sp" android:layout_marginTop="24dp"/>
+    <Spinner android:id="@+id/printers" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp"/>
+    <Button android:id="@+id/test" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TESTAR IMPRESSORA" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ATIVAR IMPRESSÃO AUTOMÁTICA" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/stop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DESATIVAR NESTE CELULAR" android:layout_marginTop="10dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Depois de ativado, o agente pode continuar funcionando em segundo plano e voltar após reiniciar o Android." android:textColor="#6B7280" android:textSize="13sp" android:layout_marginTop="18dp"/>
+  </LinearLayout>
+</ScrollView>

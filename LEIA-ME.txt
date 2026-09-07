@@ -1,0 +1,17 @@
+TOTEM IMPRESSÃO ANDROID 2.0
+
+Arquitetura profissional:
+- Sem senha ou chave privada de cliente dentro do APK.
+- Ativação por código de 6 dígitos gerado no Painel > Configurações > Impressoras.
+- Cada Android recebe sua própria credencial de agente, revogável e isolada por cliente.
+- Impressão Bluetooth ESC/POS direta, sem navegador e sem botão "Continuar".
+- Serviço em primeiro plano, reinício após o celular ligar e recuperação de fila.
+- O pedido só é marcado impresso depois de a escrita Bluetooth terminar sem erro.
+
+Fluxo do cliente:
+1. Instalar o APK Totem Impressão.
+2. Parear a Goldensky no Bluetooth do Android.
+3. No Painel, gerar Código de Ativação Android.
+4. Digitar os 6 números no app.
+5. Selecionar a Goldensky, testar e tocar ATIVAR IMPRESSÃO AUTOMÁTICA.
+Depois disso, não é necessário manter o navegador aberto.
